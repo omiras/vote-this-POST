@@ -14,7 +14,15 @@ Completa el código para que, al hacer clic en Enviar Votación, aparezca tu pun
 
 ## Iteración 2
 
-Envia los datos de la puntuación mediante el método POST a **https://votes-api-sjv2.onrender.com/send-score**
+Envia los datos de la puntuación mediante el método POST a **https://votes-api-sjv2.onrender.com/send-score**.
+Tienes que enviar un JSON con este formato:
+
+```
+ {
+   "score": 5 <--- Esto debe ser la puntuación del usuario
+ }
+```
+
 Muestra por consola la respuesta de la API para verificar que todo ha ido bien
 
 <img src="https://oscarm.tinytake.com/media/1630d13?filename=1716393034595_TinyTake22-05-2024-05-50-24_638519898339257603.png&sub_type=thumbnail_preview&type=attachment&width=1199&height=576" title="Powered by TinyTake Screen Capture"/><br><a href="https://www.tinytake.com">Powered by TinyTake Screen Capture</a>
